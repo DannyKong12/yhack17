@@ -3,5 +3,5 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('/text/<str:text>', views.text)
+    path('/<int:type>/<str:text>/', views.text)
 ]
