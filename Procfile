@@ -1,1 +1,1 @@
-web: gunicorn yhackss17.wsgi --log-file -
+web: gunicorn yhacks17.wsgi --log-file -
