@@ -4,5 +4,5 @@ from . import views
 
 urlpatterns = [
     path('/1/<str:text>/', views.text),
-    path('/2/<str:text>/', views.voice)
+    path(r'/2/<str:url>', views.voice)
 ]
