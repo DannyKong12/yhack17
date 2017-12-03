@@ -7,6 +7,8 @@ from nltk.tokenize import sent_tokenize
 import random
 np.set_printoptions(suppress=True)
 
+nltk.download('punkt')
+
 indicoio.config.api_key = '7c8c560345b56dd10371d7562a1b14e8'
 
 def softmax(x):
