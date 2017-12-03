@@ -49,8 +49,12 @@ def text(request, type, text):
     for i in range(len(numlst)):
         try:
             emojis.append((emotions[numlst[i][0]], numlst[i][1], tone_analyzer.tone(sentences[i],sentences='false', content_type='text/plain')['document_tone']['tones'][1]['tone_name']))
-        except IndexError:
-            emojis.append((emotions[numlst[i][0]], numlst[i][1], "Tentative"))
+        except TypeError:
+            try:
+                emojis.append((emotions[5], random.uniform(0.3, 0.35), "Tentative"))
+            except IndexError:
+                emojis.append((emotions[numlst[i][0]], numlst[i][1], "Tentative"))
         except Exception as e:
             emojis.append((emotions[5], random.uniform(0.3, 0.35), tone_analyzer.tone(sentences[i],sentences='false', content_type='text/plain')['document_tone']['tones'][1]['tone_name']))
+
     return HttpResponse(str(emojis))
