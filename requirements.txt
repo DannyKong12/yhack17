@@ -46,7 +46,6 @@ Pillow==4.2.1
 prompt-toolkit==1.0.15
 protobuf==3.4.0
 ptyprocess==0.5.2
-PyAudio==0.2.11
 pydub==0.20.0
 pyglet==1.2.4
 Pygments==2.2.0
