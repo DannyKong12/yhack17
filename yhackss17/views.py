@@ -3,6 +3,7 @@ from django.http import HttpResponse
 import indicoio
 import numpy as np
 import pandas as pd
+import nltk
 from nltk.tokenize import sent_tokenize
 import random
 np.set_printoptions(suppress=True)
