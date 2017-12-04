@@ -73,6 +73,7 @@ def voice(request,url):
     string = ""
 
 
+
     with sr.AudioFile(urlopen(url)) as source:
         source = r.record(source)
         try:
