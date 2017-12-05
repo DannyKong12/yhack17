@@ -61,10 +61,6 @@ def text(request, text):
     return HttpResponse(str(emojis))
 
 def voice(request,url):
-    ####################################
-    # <Name>, <StudentID>              #
-    # <Assignment No.> <Problem No.>   #
-    ####################################
     r = sr.Recognizer()
     r.energy_threshold = 4000
     for c in url:
@@ -80,13 +76,6 @@ def voice(request,url):
             string = r.recognize_google(source, language = "en-US", show_all = False)
         except Exception as e:
             pass
-
-
-
-    # This method returns a paragraph
-    # as a string and passes it to the
-    # rest of the function
-    # insert your code here:
 
 
 
