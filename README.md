@@ -24,15 +24,15 @@ Example:
 ```
 
 ## Our frontend
-
+Our frontend was made by our team, and is hosted on a different repo. 
 [Github](https://github.com/sharon-ho/emotionji/blob/master/index.html)
 
 
 ## Built with
-[Django 2.0](https://docs.djangoproject.com/en/2.0/releases/2.0/) - The web framework we used
-[NLTK](http://www.nltk.org/) - Used for sentence tokenizing
-[IBM-Watson api](https://www.ibm.com/watson/) - Our analytics engine
-[Indico](https://indico.io/) - Our emotion analytics
+[Django 2.0](https://docs.djangoproject.com/en/2.0/releases/2.0/) - The web framework we used  
+[NLTK](http://www.nltk.org/) - Used for sentence tokenizing  
+[IBM-Watson api](https://www.ibm.com/watson/) - Our analytics engine  
+[Indico](https://indico.io/) - Our emotion analytics  
 
 ## Authors
 - Tate Cheng
