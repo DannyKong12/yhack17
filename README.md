@@ -11,7 +11,8 @@ Send a typical GET request to our server with a url argument at the end.
 
 e.g.
 ``` javascript
-$.get( "immense-lowlands-49222.herokuapp.com/yhackss/1/<str>", function( data ) { // send a request to the url with your input replacing <str>
+var url = "immense-lowlands-49222.herokuapp.com/yhackss/1/"
+$.get( url + <str>, function( data ) { //  send request with your input replacing <str>
   ... data ...
 });
 ```
@@ -24,7 +25,7 @@ Example:
 ```
 
 ## Our frontend
-Our frontend was made by our team, and is hosted on a different repo. 
+Our frontend was made by our team, and is hosted on a different repo.
 [Github](https://github.com/sharon-ho/emotionji/blob/master/index.html)
 
 
