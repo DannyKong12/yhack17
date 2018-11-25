@@ -10,12 +10,12 @@ cffi==1.11.2
 chardet==3.0.4
 click==6.7
 configparser==3.5.0
-cryptography==2.1.4
+cryptography==2.3
 cycler==0.10.0
 decorator==4.1.2
 dj-database-url==0.4.2
 dj-static==0.0.6
-Django==2.0
+Django==2.0.8
 django-toolbelt==0.0.1
 docopt==0.6.2
 Flask==0.12.2
@@ -64,7 +64,7 @@ pysolr==3.6.0
 python-dateutil==2.6.1
 pytz==2017.2
 PyYAML==3.12
-requests==2.18.4
+requests==2.20.0
 requests-oauthlib==0.8.0
 scheme==2.0.2
 scikit-learn==0.19.0
