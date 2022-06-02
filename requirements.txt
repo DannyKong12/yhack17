@@ -23,7 +23,7 @@ futures==3.1.1
 gunicorn==19.7.1
 gym==0.9.2
 gym-pull==0.1.7
-html5lib==0.9999999
+html5lib==0.99999999
 idna==2.6
 imageio==2.2.0
 IndicoIo==1.1.1
